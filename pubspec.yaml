@@ -1,0 +1,65 @@
+name: sablekey
+description: >-
+  Sablekey — a fully offline, zero-network password manager. Your vault never
+  leaves the device, and the app ships without the permission needed to send it
+  anywhere.
+publish_to: none
+
+# version+build. Bump build on every store upload.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+# Dependency policy (see SECURITY.md): every package here is either first-party
+# Flutter, or a widely audited plugin that is strictly local. Nothing in this
+# list performs network I/O. Anything that can reasonably be implemented in the
+# repo — TOTP, entropy scoring, CSV parsing, the search engine, secure screen
+# flags — is implemented in the repo rather than pulled in.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Crypto primitives: Argon2id, XChaCha20-Poly1305, HKDF, BLAKE2b, HMAC.
+  cryptography: ^2.7.0
+
+  # State management.
+  flutter_riverpod: ^2.5.1
+
+  # Platform keystore / keychain for the biometric-wrapped key.
+  flutter_secure_storage: ^9.2.2
+  local_auth: ^2.3.0
+
+  # Local storage.
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  path_provider: ^2.1.4
+
+  # Local file open/save for encrypted backups and attachments.
+  file_selector: ^1.0.3
+
+  # Vector brand assets.
+  flutter_svg: ^2.0.10+1
+
+  # otpauth:// QR capture. Camera only; no network.
+  mobile_scanner: ^5.2.3
+
+  uuid: ^4.5.0
+  intl: ^0.19.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/brand/
+    - assets/wordlist/

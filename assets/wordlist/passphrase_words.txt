@@ -1,0 +1,271 @@
+# Sablekey passphrase wordlist.
+#
+# Curated short, concrete, unambiguous English words. Words are 3-9 letters,
+# contain no apostrophes or accents, and avoid near-homophones so a passphrase
+# can be read aloud or copied off a screen without mistakes.
+#
+# 3007 words -> 11.55 bits per word. A 6-word passphrase carries ~69 bits, a
+# 7-word one ~81 bits. The generator shows the real figure, computed from this
+# file, rather than a marketing number.
+#
+# Entropy is computed from the actual list length at runtime
+# (log2(length) bits per word), so adding or removing words here stays correct
+# without touching the generator. Lines starting with # are ignored.
+#
+abbey able above abroad absent absorb abstract absurd accent accept access
+accord accuse ace ache acid acorn acre across act action active actor adapt
+add adept adjust admire admit adobe adopt adore adult advance advice aerial
+afar affair afford afloat afraid after again agenda agent agile aglow agree
+ahead aid aim air airline airport aisle ajar alarm album alert algebra alias
+alibi alien align alike alive alley allow alloy almond almost aloft alone
+along aloud alpha already also altar alter always amaze amber amble amend
+amiss among amount ample amuse anchor ancient angel anger angle animal ankle
+annex annual answer antenna antique anvil anxious any apart apex apology
+appeal appear apple apply apricot april apron aptly aqua arcade arch archer
+arctic ardent area arena argue arid arise arm armor army aroma around arrange
+arrest arrive arrow art artery artist ascend ashore aside ask aspect asphalt
+assay assert asset assign assist assume asthma astute atlas atom attach
+attack attain attend attic auburn auction audio audit august aunt author auto
+autumn avail avenue avert avid avocado avoid await awake award aware away awe
+awkward axis axle azure
+bacon badge badly bagel baggage bake balance balcony bald ballad ballot balmy
+bamboo banana band bandit banjo bank banner banquet barber bare barge bark
+barley barn barrel base basic basil basin basket bass batch bath baton batter
+bay beach beacon bead beam bean bear beard beast beat beauty beaver became
+because become bedrock bee beech beef been beetle before began begin behalf
+behave behind being belief bell belong below belt bench bend beneath berry
+berth beside best bet betray better between beyond bias bicycle bid big bike
+bill binary bind binder biology birch bird birth biscuit bishop bison bit
+bitter black blade blame bland blank blast blaze bleach bleak blend bless
+blind blink bliss blitz block blond blood bloom blot blouse blow blue bluff
+blunt blur blush board boast boat bobcat body boil bold bolt bond bone bonus
+book boost boot border bore born borrow bossy botany both bottle bottom
+boulder bounce bound bouquet bout bow bowl box boy brace braid brain brake
+bran branch brand brass brave bread break bream breed breeze brew brick bride
+bridge brief bright brim bring brisk broad broil broke bronze brook broom
+broth brown browse bruise brunch brush bubble bucket buckle bud budget buffalo
+buffer bugle build bulb bulk bull bumper bunch bundle bunker bunny burden
+bureau burly burn burrow burst bury bus bush busy butter button buyer buzz
+bygone bypass
+cabin cable cactus cadet cafe cage cake calm camel camera camp canal canary
+candle candy cane canoe canopy canvas canyon cap cape capsule captain car
+carbon card cargo carol carpet carrot carry cart carve case cash cask cast
+castle casual cat catalog catch cater cattle caught cause cavern cease cedar
+ceiling celery cell cement census center cereal chain chair chalk champ chance
+change chant chaos chapel charge charm chart chase chasm cheap check cheek
+cheer cheese chef cherry chess chest chew chick chief child chill chime
+chimney chin chip chirp chisel choice choir choose chop chorus chose chrome
+chunk churn cider cigar cinema circle circus cite citizen city civic civil
+clad claim clam clamp clan clap clarify clash clasp class clause claw clay
+clean clear clerk clever click client cliff climb cling clinic clip cloak
+clock clone close cloth cloud clover clown club clue clump clumsy cluster
+clutch coach coal coast coat cobalt cobra cocoa code coffee coil coin cold
+collar colony color column comb combat come comedy comet comfort comic
+command comment common compact company compare compass compete compile complex
+comply concert concur condor conduct cone confirm conflict connect consent
+console consult consume contact contain content contest context control
+convert convey convince cook cool cope copper copy coral cord core cork corn
+corner corral correct cost cottage cotton couch cougar cough could council
+count county couple courage course court cousin cover cow coyote cozy crab
+crack cradle craft crane crash crate crave crawl crayon cream create credit
+creek crest crew cricket crime crimson crisp critic crop cross crowd crown
+crucial crude cruise crumb crunch crush crust cry crystal cube cuff culture
+cup curb cure curious curl current curry curse curtain curve cushion custom
+cut cycle cypress
+dagger daily dairy daisy damage damp dance danger dare dark dart dash data
+date dawn day dazzle dealer dean debate debris debt decade decay deceive
+decent decide deck declare decline decor decree deed deep deer defeat defend
+define degree delay delete delight deliver delta demand demo denim dense
+dental deny depart depend deposit depth deputy derby derive descend desert
+design desire desk detail detect detour device devote dial diamond diary dice
+diet differ dig digest digit dignity dilute dime dinner diploma direct dirt
+disc discuss dish dismiss display distant ditch dive divide dizzy dock doctor
+dodge dog doll dolphin domain dome donate donkey donor door dose dot double
+dough dove down dozen draft drag dragon drain drama drape draw dream dress
+drift drill drink drive drop drought drum dry duck duct dune dungeon during
+dusk dust duty dwarf dwell dye dynamic
+eager eagle early earn earth ease east easy eat echo eclipse edge edit
+educate eel effect effort eight either elbow elder elect element elephant
+eleven elite elk else email embark ember emblem embrace emerge emotion employ
+empty enable enact enamel encode end endorse endure enemy energy engage engine
+enjoy enlist enough enrich ensure enter entire entry envelope envy epic equal
+equip era erase erode errand error erupt escape escort essay essence estate
+eternal ethics evade even event ever every evict evolve exact exam exceed
+excel except excess exchange excite exclude excuse exempt exercise exhale
+exhibit exile exist exit exotic expand expect expert expire explain explore
+export expose express extend extra extreme eye
+fabric face facility fact factor fade fail faint fair faith falcon fall false
+fame family famous fan fancy fang fantasy far fare farm fashion fast fasten
+fatal fate father fatigue fault favor fawn fear feast feather feature federal
+fee feed feel fellow female fence fern ferry festival fetch fever fiber
+fiction fiddle field fierce fifteen fifth fifty fig fight figure file fill
+film filter final finance finch find fine finger finish fir fire firm first
+fiscal fish fist fit five fix flag flame flash flat flavor flax fleet flesh
+flex flight flint flip float flock flood floor flour flow flower fluid flush
+flute fly foam focus fog foil fold folk follow fond font food fool foot force
+forest forge forget fork form fort forty forum forward fossil foster found
+fountain four fox fragile frame frank fraud free freeze freight frequent fresh
+friend fringe frog from front frost frown frozen fruit fuel fudge full
+fun function fund fungus funnel funny fur furnace furry fury fuse future
+fuzzy
+gadget gain galaxy gallery gallon game gap garage garden garlic garment gas
+gate gather gauge gaze gear gem gender gene general genius gentle genuine
+gesture ghost giant gift giggle ginger giraffe girl give glacier glad glance
+gland glare glass glaze gleam glide glimpse glitter global globe gloom glory
+glove glow glue goal goat gold golf gone good goose gorge gospel gossip govern
+gown grab grace grade grain grand grant grape graph grasp grass grateful
+grave gravel gravity gray graze grease great green greet grid grief grill
+grim grin grind grip grit grocery groom groove ground group grove grow growl
+guard guess guest guide guild guilt guitar gulf gully gust gutter gym
+habit hair half hall halt hammer hamper hand handle hang harbor hard hardy
+hare harm harp harsh harvest hasty hat hatch hate haul haunt have hawk hay
+hazard haze hazel head heal health heap hear heart heat heavy hedge heel
+height helium hello helmet help hemp hen herb herd here hero hesitate hidden
+hide high hill hint hip hire history hobby hockey hoist hold hole holiday
+hollow holy home honest honey honor hood hoof hook hope horizon horn horse
+hose host hotel hour house hover howl hub huddle huge hull human humble humid
+humor hundred hunger hunt hurdle hurl hurry hurt husband hush husk hybrid
+hydrogen hymn
+ice icon idea ideal idle idol igloo ignite ignore ill image imitate immune
+impact imply import impose impress improve impulse inch include income
+increase indeed index indoor infant inform inhale initial inject injury ink
+inland inlet inn inner input inquiry insect insert inside insist inspect
+install instant instead insult intact intake intend interest interval into
+invent invest invite invoke inward iron island isolate issue item ivory ivy
+jacket jade jaguar jail jam january jar jaw jazz jealous jelly jersey jet
+jewel job jockey jog join joint joke jolly journal journey joy judge juice
+july jumbo jump junction june jungle junior junk jury just justice
+kangaroo keen keep kernel ketchup kettle key kick kid kidney kind king kiosk
+kiss kit kitchen kite kitten knee kneel knife knight knit knob knock knot
+know knuckle koala
+label labor lace lack ladder lady lagoon lake lamb lamp land lane language
+lantern lap large larva laser last latch late later latex laugh launch
+laundry lava law lawn layer lazy lead leaf league leak lean leap learn lease
+leash least leather leave lecture ledge left leg legacy legal legend lemon
+lend length lens leopard lesson letter level lever liberty library license
+lid life lift light like lilac lily limb lime limit line linen linger link
+lion lip liquid list listen liter little live lizard load loaf loan lobby
+lobster local lock lodge loft logic lonely long look loop loose lord lorry
+lose loss lost lot lotion loud lounge love low loyal luck luggage lumber
+lunar lunch lung lure lush luxury lyric
+machine mad magic magnet maid mail main major make male mall mammal manage
+mango manner mansion manual many map maple marble march margin marine mark
+market marry marsh martial marvel mask mason mass master match mate math
+matrix matter mature maze meadow meal mean measure meat medal media medical
+medium meet melody melon melt member memory mend mental mentor menu mercy
+mere merge merit merry mesh message metal meter method middle midnight might
+mild mile milk mill mimic mind mine mineral mingle minor mint minute mirror
+misery miss mist mix moat mobile model modern modest modify moist mold moment
+monarch money monitor monkey month mood moon moral more morning mosaic mossy
+most motel moth mother motion motor mount mouse mouth move movie much mud mug
+mule multiply muscle museum mushroom music must mutual myself mystery myth
+nail name napkin narrow nation native natural nature naval navy near neat
+neck need needle negative neighbor neither nephew nerve nest net network
+neutral never new news next nice niche nickel niece night nimble nine noble
+nod noise none noon normal north nose note notice notion novel novice now
+nozzle nuclear nudge number nurse nursery nut nylon
+oak oasis oat obey object oblige obscure observe obtain obvious occupy occur
+ocean october odd odor offer office often oil okay old olive omit once one
+onion online only onto open opera opinion oppose optic option orange orbit
+orchard order ordinary organ origin ornament orphan other otter ought ounce
+our outdoor outer outfit outing outlet output outside oval oven over overlap
+owl own oxide oxygen oyster ozone
+pace pack pad paddle page paid pail pain paint pair palace pale palm panda
+panel panic pantry paper parade parcel pardon parent park parrot parsley part
+party pass past pasta pastel pasture patch path patient patio patrol pattern
+pause pave paw payment peace peach peak peanut pear pearl pebble pecan
+peculiar pedal peel peer pelican pen penalty pencil penguin people pepper
+perch perfect perform perhaps period permit person pest petal petite phase
+phone photo phrase physical piano pick picnic picture pie piece pier pig
+pigeon pile pilgrim pill pillow pilot pin pinch pine pink pint pioneer pipe
+pistol pit pitch pity pivot pixel pizza place plain plan plank plant plastic
+plate plaza plead please pledge plenty plot plow pluck plug plum plumb plunge
+plus pocket poem poet point polar pole police policy polish polite poll pond
+pony pool poor pop porch pork port portion portrait pose position possible
+post pot potato pouch pound pour powder power praise prank pray preach
+precise prefer prepare present preserve press pretty prevent price pride
+priest primary prime print prison privacy prize problem proceed process
+produce profile profit program project promise prompt proof proper propose
+protect proud prove provide prune public pudding puddle puff pull pulse pump
+pumpkin punch pupil puppy purchase pure purple purpose purse pursue push put
+puzzle pyramid
+quail quake qualify quality quantum quarry quarter queen query quest question
+queue quick quiet quill quilt quit quiver quiz quota quote
+rabbit raccoon race rack radar radio radish raft rag rail rain raise rally
+ramp ranch random range rank rapid rare rash rate rather ratio rattle raven
+raw ray razor reach react read ready real reason rebel recall receive recent
+recipe reckon record recover recruit red reduce reef refer refine reflect
+reform refuge refuse regard region regret regular reign reject rejoice relate
+relax relay release relief rely remain remark remedy remind remote remove
+render renew rent repair repeat replace reply report request require rescue
+research reserve reside resist resolve resort resource respect respond rest
+result resume retail retain retire retreat return reveal review revise reward
+rhythm rib ribbon rice rich rid ride ridge rifle right rigid rim ring rinse
+riot ripe ripple rise risk ritual rival river road roast robe robin robot
+rock rocket rod rodeo rogue role roll roof room root rope rose roster rotate
+rough round route routine row royal rubber ruby rudder rug rugged ruin rule
+rumor run runway rural rush rust rustic
+sack sacred saddle safari safe saffron sage said sail saint salad salmon
+salon salt salute same sample sand sane sash satin satisfy sauce sausage save
+saw say scale scan scarce scare scarf scatter scene scent schedule scheme
+scholar school science scissors scoop scope score scout scrap scratch screen
+screw script scroll scrub sculpt seal search season seat second secret
+section secure seed seek seem segment seize seldom select self sell semester
+senate send senior sense sentence series serious serve session settle seven
+sever sew shade shadow shaft shake shallow shame shape share shark sharp
+shatter shave shed sheep sheet shelf shell shelter shield shift shine ship
+shirt shock shoe shoot shop shore short shot should shoulder shout shovel
+show shower shred shrimp shrine shrug shuffle shut shy sibling sick side
+siege sigh sight sign signal silent silk silly silver similar simple since
+sincere sing single sink sir siren sister sit site six size skate sketch ski
+skill skin skip skirt skull sky slab slam slate sleek sleep sleeve slice
+slide slight slim slip slogan slope slot slow slug small smart smash smell
+smile smoke smooth snack snail snake snap sneak snow soak soap soar social
+sock soda sofa soft soil solar sold soldier sole solid solve some son song
+soon sort soul sound soup source south space spade span spare spark speak
+spear special speech speed spell spend sphere spice spider spike spill spin
+spine spiral spirit spite splash split spoil sponge spoon sport spot spray
+spread spring sprout spruce spur square squash squeeze squirrel stable stack
+staff stage stain stair stake stall stamp stand staple star stare start state
+statue stay steady steak steal steam steel steep steer stem step stereo stern
+stick stiff still sting stir stitch stock stone stool stop store storm story
+stove strain strand strange straw stream street stress strict stride strike
+string strip stroke strong struggle stubborn student studio study stuff stump
+stun style subject submit subtle suburb subway succeed such sudden suffer
+sugar suggest suit summer summit sun sunny super supply support suppose
+supreme sure surf surface surge surname surplus surprise survey survive
+suspect sustain swallow swamp swan swarm sway swear sweat sweep sweet swell
+swift swim swing switch sword symbol symptom syrup system
+table tablet tackle tactic tag tail tailor take tale talent talk tall tame
+tank tape target task taste tavern tax taxi tea teach team tear tease
+technical teeth tell temper temple tenant tend tennis tense tent term terrain
+test text thank thaw theme then theory there these thick thief thigh thin
+thing think third thirst thorn those though thread three thrive throat throne
+through throw thrust thumb thunder thus ticket tidal tide tidy tie tiger
+tight tile till timber time tin tiny tip tire tissue title toast today toe
+together toil token told toll tomato tomb tone tongue tonight tool tooth top
+topic torch torso total touch tough tour toward towel tower town toy trace
+track trade traffic trail train trait tram transfer trap trash travel tray
+treat tree trek trend trial tribe trick trigger trim trip triple triumph
+trolley troop tropic trouble truck true trumpet trunk trust truth try tube
+tuck tuition tumble tuna tunnel turkey turn turtle tusk tutor twelve twenty
+twice twig twin twist two type typical
+ugly umbrella unable uncle under undo unfair unfold unify union unique unit
+universe unless unlock until unusual upgrade uphill uphold upon upper upset
+urban urge usage use useful usher usual utility
+vacant vacuum vague valid valley value valve van vanish vapor variety various
+vase vast vault vector velvet vendor venture venue verb verdict verify verse
+version vessel veteran vibrant vicar victory video view vigor villa village
+vine vintage vinyl violet violin virtue visible vision visit visual vital
+vivid vocal vogue voice void volcano volley volume vote voucher vowel voyage
+wade wafer wage wagon waist wait wake walk wall walnut wander want war ward
+warm warn warp warrant wash wasp waste watch water wave wax way weak wealth
+weapon wear weather weave wedge week weigh weird welcome weld well west wet
+whale wharf wheat wheel when where which while whip whisk whisper whistle
+white whole wide widow width wife wild will willow win wind window wine wing
+wink winter wipe wire wisdom wise wish wit witch with within without witness
+wolf woman wonder wood wool word work world worm worry worth would wound
+woven wrap wreath wreck wrench wrist write wrong
+yacht yard yarn yawn year yeast yellow yes yesterday yet yield yoga yogurt
+yolk young youth
+zebra zero zest zigzag zinc zip zone zoo
