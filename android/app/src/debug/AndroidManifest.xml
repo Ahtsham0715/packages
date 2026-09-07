@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+      The debug build needs a loopback socket so `flutter attach` and the
+      Dart VM service can reach the device. This permission exists only in the
+      debug variant and is never merged into a release APK — the release
+      manifest actively removes INTERNET, so a release build cannot open a
+      socket at all.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

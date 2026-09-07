@@ -1,0 +1,100 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader("UTF-8") { reader -> localProperties.load(reader) }
+}
+
+def flutterVersionCode = localProperties.getProperty("flutter.versionCode") ?: "1"
+def flutterVersionName = localProperties.getProperty("flutter.versionName") ?: "1.0.0"
+
+// Release signing is read from key.properties, which is deliberately absent
+// from the repository (see .gitignore). Without it the release build falls
+// back to the debug key so the project still assembles on a fresh clone.
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file("key.properties")
+if (keystorePropertiesFile.exists()) {
+    keystorePropertiesFile.withReader("UTF-8") { reader -> keystoreProperties.load(reader) }
+}
+
+android {
+    namespace "com.sablekey.app"
+    compileSdk 34
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    defaultConfig {
+        applicationId "com.sablekey.app"
+        // The autofill framework arrived in API 26, and the app leans on it
+        // heavily enough that supporting older releases would mean shipping a
+        // visibly different product.
+        minSdk 26
+        targetSdk 34
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+
+        resourceConfigurations += ["en"]
+    }
+
+    signingConfigs {
+        release {
+            if (keystorePropertiesFile.exists()) {
+                keyAlias keystoreProperties["keyAlias"]
+                keyPassword keystoreProperties["keyPassword"]
+                storeFile keystoreProperties["storeFile"] ? file(keystoreProperties["storeFile"]) : null
+                storePassword keystoreProperties["storePassword"]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig keystorePropertiesFile.exists()
+                    ? signingConfigs.release
+                    : signingConfigs.debug
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+        debug {
+            // Keep the debug build's package distinct so it can sit beside a
+            // release install without one overwriting the other's vault.
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+        }
+    }
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging false
+        }
+    }
+
+    lint {
+        checkReleaseBuilds true
+        abortOnError false
+    }
+}
+
+flutter {
+    source "../.."
+}
+
+dependencies {
+    implementation "androidx.autofill:autofill:1.1.0"
+    implementation "androidx.biometric:biometric:1.1.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.22"
+}

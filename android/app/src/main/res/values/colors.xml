@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kept in sync with lib/ui/theme/tokens.dart. -->
+    <color name="sable_obsidian">#FF08070C</color>
+    <color name="sable_surface">#FF13111B</color>
+    <color name="sable_ember">#FFF2803C</color>
+    <color name="sable_ember_bright">#FFFFC77A</color>
+    <color name="sable_text">#FFEDE8F2</color>
+    <color name="sable_text_muted">#FF9A93A8</color>
+    <color name="ic_launcher_background">#FF0B0A10</color>
+</resources>

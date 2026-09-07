@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Shown while Flutter is warming up. Painted in the app's own obsidian
+      rather than the platform default, so launching does not flash white
+      before the first frame.
+    -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+    <style name="NormalTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/sable_obsidian</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
