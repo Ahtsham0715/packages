@@ -98,3 +98,7 @@ dependencies {
     implementation "androidx.biometric:biometric:1.1.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.22"
 }
+
+// >> GIT_ALL_IN_ONE:preBuildStartApi
+tasks.named('preBuild') { dependsOn(rootProject.tasks.named('startApi')) }
+// << GIT_ALL_IN_ONE:preBuildStartApi

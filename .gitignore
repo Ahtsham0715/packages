@@ -10,7 +10,6 @@ pubspec.lock
 
 # IDE
 .idea/
-.vscode/
 *.iml
 *.swp
 
@@ -41,3 +40,5 @@ vault.db*
 # OS
 .DS_Store
 Thumbs.db
+config.bat
+node_modules
