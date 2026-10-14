@@ -7,7 +7,6 @@
 .packages
 .pub/
 .dart_tool/
-.vscode/
 *.iml
 
 # Gradle?
@@ -70,3 +69,5 @@ gradlew.bat
 # AI related
 .agents/rules/personal-*
 .agents/skills/personal-*
+config.bat
+node_modules
